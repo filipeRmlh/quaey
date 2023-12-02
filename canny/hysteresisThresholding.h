@@ -101,7 +101,7 @@ void visitNodes(
                     visitNode(neighborPos, queue, marked, mag);
                 } else {
 
-                    // Even if the node doesn't belong to the tree, it will be marked as marked to avoid unnecessary processing in the future.
+                    // Even if the node doesn't belong to the tree, it will be marked to avoid unnecessary processing in the future.
                     setVisited(neighborPos, marked, mag);
                 }
             }
